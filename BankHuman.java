@@ -1,4 +1,5 @@
-public class BankHuman{
+
+public class BankHuman {
 	public String bankAccountID; 
 	double balance; 
 	
@@ -19,4 +20,3 @@ public class BankHuman{
 		balance += amount;
 	}
 }
-
