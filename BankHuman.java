@@ -1,4 +1,5 @@
-public class BankHuman{
+
+public class BankHuman {
 	public String bankAccountID; 
 	double balance; 
 	
@@ -8,15 +9,8 @@ public class BankHuman{
 		this.balance = balance;
 	}
 	
-	
-	public String ID()
-	{
-		return this.bankAccountID;
-	}
-	
 	public void add(double amount)
 	{
 		balance += amount;
 	}
 }
-
